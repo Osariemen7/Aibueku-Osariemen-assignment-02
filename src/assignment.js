@@ -29,7 +29,7 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
     arrayOfNumbers = arrayOfNumbers.filter(i => i % 2 === 0);
-    return arrayOfNumbers.length
+   return arrayOfNumbers.length
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
